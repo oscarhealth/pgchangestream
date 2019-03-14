@@ -1,6 +1,6 @@
 // pgchangestream allows you to read a stream of changes from a postgres
 // database. In order to use the library, you first need to create a
-// StreamReader, and then call `Listen` to start streaming data onto the
+// StreamReader, and then call Listen to start streaming data onto the
 // provided channel.
 package pgchangestream
 
