@@ -1,3 +1,5 @@
+More documentation on [godoc](https://godoc.org/github.com/oscarhealth/pgchangestream).
+
 # Overview
 
 `pgchangestream` is a library used to stream changes off of a postgres database using [logical decoding](https://www.postgresql.org/docs/9.4/logicaldecoding.html). The basic API is that you provide a connection string and replication slot name, and you get change messages sent along a channel. This can be useful for any sort of data streaming -- we use it to respond to changes, load data into a data warehouse, and more.
